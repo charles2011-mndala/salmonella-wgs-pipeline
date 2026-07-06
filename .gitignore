@@ -10,3 +10,8 @@ results/fastqc/*.zip
 
 # Python cache
 __pycache__/
+# Raw sequencing data
+data/raw/*.fastq.gz
+
+# Trimmed reads
+data/trimmed/*.fastq.gz
