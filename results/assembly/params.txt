@@ -1,0 +1,37 @@
+Command line: /home/charles/miniconda3/envs/assembly/bin/spades.py	--careful	-1	/home/charles/Bioinformatics/Projects/salmonella-wgs-pipeline/data/trimmed/SRR29047031_R1_trimmed.fastq.gz	-2	/home/charles/Bioinformatics/Projects/salmonella-wgs-pipeline/data/trimmed/SRR29047031_R2_trimmed.fastq.gz	-o	/home/charles/Bioinformatics/Projects/salmonella-wgs-pipeline/results/assembly	-t	3	-m	4	
+
+System information:
+  SPAdes version: 3.15.5
+  Python version: 3.13.14
+  OS: Linux-7.0.0-27-generic-x86_64-with-glibc2.43
+
+Output dir: /home/charles/Bioinformatics/Projects/salmonella-wgs-pipeline/results/assembly
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Standard mode
+  For multi-cell/isolate data we recommend to use '--isolate' option; for single-cell MDA data use '--sc'; for metagenomic data use '--meta'; for RNA-Seq use '--rna'.
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/home/charles/Bioinformatics/Projects/salmonella-wgs-pipeline/data/trimmed/SRR29047031_R1_trimmed.fastq.gz']
+      right reads: ['/home/charles/Bioinformatics/Projects/salmonella-wgs-pipeline/data/trimmed/SRR29047031_R2_trimmed.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned ON
+  MismatchCorrector will be used
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /home/charles/Bioinformatics/Projects/salmonella-wgs-pipeline/results/assembly/tmp
+  Threads: 3
+  Memory limit (in Gb): 4
+

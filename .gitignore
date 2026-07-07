@@ -15,3 +15,10 @@ data/raw/*.fastq.gz
 
 # Trimmed reads
 data/trimmed/*.fastq.gz
+# SPAdes temporary files
+results/assembly/tmp/
+results/assembly/corrected/
+results/assembly/K*/
+results/assembly/misc/
+results/assembly/*.bin
+results/assembly/*.seq
