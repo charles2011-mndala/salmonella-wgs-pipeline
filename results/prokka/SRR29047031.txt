@@ -1,0 +1,8 @@
+organism: Salmonella enterica SRR29047031 
+contigs: 135
+bases: 4849022
+CDS: 4554
+rRNA: 25
+repeat_region: 2
+tRNA: 89
+tmRNA: 1
