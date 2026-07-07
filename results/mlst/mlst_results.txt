@@ -1,0 +1,1 @@
+/home/charles/Bioinformatics/Projects/salmonella-wgs-pipeline/results/assembly/contigs.fasta	salmonella	377	aroC(2)	dnaN(59)	hemD(23)	hisD(64)	purE(38)	sucA(61)	thrA(122)
