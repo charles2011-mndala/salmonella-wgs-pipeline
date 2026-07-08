@@ -37,7 +37,7 @@ Prokka
 ↓
 MLST
 ↓
-AMRFinderPlus
+ABRicate(CARD database)
 ↓
 Final Report
 
@@ -51,7 +51,7 @@ Final Report
 - QUAST
 - Prokka
 - MLST
-- AMRFinderPlus
+- ABRicate
 - Git
 - Ubuntu Linux
 
