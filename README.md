@@ -16,7 +16,6 @@ Evaluate assembly quality.
 Annotate genomic features.
 Determine the Multilocus Sequence Type (MLST).
 Identify antimicrobial resistance genes using the CARD database.
-
 Workflow
 Raw FASTQ Reads
         │
@@ -40,7 +39,6 @@ Raw FASTQ Reads
         │
         ▼
  ABRicate (CARD)
-
 Repository Structure
 salmonella-wgs-pipeline/
 ├── data/
@@ -67,7 +65,6 @@ salmonella-wgs-pipeline/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
 Software Used
 Tool	Purpose
 FastQC	Quality assessment of raw reads
@@ -77,22 +74,19 @@ QUAST	Assembly quality assessment
 Prokka	Genome annotation
 MLST	Sequence typing
 ABRicate	Detection of antimicrobial resistance genes
-
 Input
 Paired-end Illumina FASTQ files
-
 Output
 
 The pipeline generates:
 
 FastQC quality reports
 Trimmed sequencing reads
-Genome assembly (contigs and scaffolds)
+Genome assembly (contigs.fasta and scaffolds.fasta)
 Assembly quality reports
 Genome annotation files
 MLST sequence type
 Antimicrobial resistance gene report
-
 Example Results
 
 The example analysis in this repository produced:
@@ -112,7 +106,6 @@ Run each script sequentially:
 ./scripts/05_prokka.sh
 ./scripts/06_mlst.sh
 ./scripts/07_abricate.sh
-
 Requirements
 Ubuntu Linux
 Conda / Miniconda
@@ -128,7 +121,6 @@ Documentation
 Detailed descriptions of each analysis step are available in:
 
 docs/analysis.md
-
 Future Improvements
 
 Potential extensions of this workflow include:
@@ -139,7 +131,6 @@ Virulence factor detection
 Comparative genomics
 Phylogenetic analysis
 Workflow automation using Snakemake or Nextflow
-
 Author
 
 Charles George Mndala
@@ -154,4 +145,4 @@ This project is distributed under the MIT License.
 
 Citation
 
-If you use this workflow in your research or teaching, please cite this repository appropriately.
+If you use this repository in your research, please cite it appropriately.
