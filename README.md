@@ -143,8 +143,8 @@ The pipeline accepts paired-end Illumina FASTQ files.
 Example:
 
 ```text
-sample_R1.fastq.gz
-sample_R2.fastq.gz
+SRR29047031_1.fastq.gz
+SRR29047031_2.fastq.gz
 ```
 
 ---
@@ -220,8 +220,7 @@ Potential future enhancements include:
 Bioinformatics | Microbial Genomics | Pathogen Genomics | Whole-Genome Sequencing | Antimicrobial Resistance | Comparative Genomics
 
 - GitHub: https://github.com/charles2011-mndala
-- LinkedIn: *(Add your LinkedIn profile URL)*
-
+- linkedin: www.linkedin.com/in/charles-mndala-97b0943777
 ---
 
 ## 📜 License
