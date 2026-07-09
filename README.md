@@ -220,7 +220,7 @@ Potential future enhancements include:
 Bioinformatics | Microbial Genomics | Pathogen Genomics | Whole-Genome Sequencing | Antimicrobial Resistance | Comparative Genomics
 
 - GitHub: https://github.com/charles2011-mndala
-- LinkedIn: *(Add your LinkedIn profile URL)*
+- LinkedIn: *(www.linkedin.com/in/charles-mndala-97b094377)*
 
 ---
 
