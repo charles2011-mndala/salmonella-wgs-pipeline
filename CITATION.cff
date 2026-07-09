@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "Salmonella enterica Whole-Genome Sequencing Pipeline"
+message: "If you use this repository in your research, please cite it using the metadata below."
+type: software
+
+authors:
+
+family-names: "Mndala"
+given-names: "Charles George"
+
+repository-code: "https://github.com/charles2011-mndala/salmonella-wgs-pipeline"
+
+abstract: >
+A reproducible bioinformatics workflow for the analysis of
+Salmonella enterica whole-genome sequencing (WGS) data,
+including quality control, read trimming, genome assembly,
+assembly quality assessment, genome annotation, MLST
+sequence typing, and antimicrobial resistance gene detection
+using ABRicate.
+
+keywords:
+
+Bioinformatics
+Whole Genome Sequencing
+Salmonella enterica
+Genome Assembly
+SPAdes
+Prokka
+QUAST
+MLST
+ABRicate
+Antimicrobial Resistance
+
+license: MIT
+
+version: 1.0.0
+
+date-released: 2026-07-09
