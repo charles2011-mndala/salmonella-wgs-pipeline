@@ -1,22 +1,32 @@
-Salmonella enterica Whole-Genome Sequencing (WGS) Pipeline
+# 🧬 Salmonella *enterica* Whole-Genome Sequencing (WGS) Pipeline
 
-A reproducible bioinformatics workflow for analyzing Illumina whole-genome sequencing (WGS) data from Salmonella enterica. This pipeline performs quality assessment, read trimming, genome assembly, assembly quality evaluation, genome annotation, sequence typing, and antimicrobial resistance (AMR) gene detection.
+A reproducible bioinformatics workflow for analyzing Illumina whole-genome sequencing (WGS) data from *Salmonella enterica*. This pipeline performs quality assessment, read trimming, genome assembly, assembly quality evaluation, genome annotation, sequence typing, and antimicrobial resistance (AMR) gene detection.
 
-Project Overview
+---
+
+## 📖 Project Overview
 
 This repository demonstrates an end-to-end bacterial genome analysis workflow developed using open-source bioinformatics tools on Ubuntu Linux.
 
-The pipeline was designed to provide a reproducible framework for analyzing Salmonella enterica whole-genome sequencing data from raw sequencing reads to biologically meaningful results.
+The pipeline was designed to provide a reproducible framework for analyzing *Salmonella enterica* whole-genome sequencing data from raw sequencing reads to biologically meaningful results.
 
-Objectives
-Perform quality assessment of raw Illumina sequencing reads.
-Improve read quality through trimming and filtering.
-Assemble the bacterial genome.
-Evaluate assembly quality.
-Annotate genomic features.
-Determine the Multilocus Sequence Type (MLST).
-Identify antimicrobial resistance genes using the CARD database.
-Workflow
+---
+
+## 🎯 Objectives
+
+- Perform quality assessment of raw Illumina sequencing reads.
+- Improve read quality through trimming and filtering.
+- Assemble the bacterial genome.
+- Evaluate assembly quality.
+- Annotate genomic features.
+- Determine the Multilocus Sequence Type (MLST).
+- Identify antimicrobial resistance genes using the CARD database.
+
+---
+
+## 🔬 Workflow
+
+```text
 Raw FASTQ Reads
         │
         ▼
@@ -39,7 +49,12 @@ Raw FASTQ Reads
         │
         ▼
  ABRicate (CARD)
-Repository Structure
+```
+---
+
+## 📂 Repository Structure
+
+```text
 salmonella-wgs-pipeline/
 ├── data/
 │   ├── raw/
@@ -64,85 +79,6 @@ salmonella-wgs-pipeline/
 │   └── 07_abricate.sh
 ├── README.md
 ├── LICENSE
+├── CITATION.cff
 └── .gitignore
-Software Used
-Tool	Purpose
-FastQC	Quality assessment of raw reads
-fastp	Read trimming and filtering
-SPAdes	Genome assembly
-QUAST	Assembly quality assessment
-Prokka	Genome annotation
-MLST	Sequence typing
-ABRicate	Detection of antimicrobial resistance genes
-Input
-Paired-end Illumina FASTQ files
-Output
-
-The pipeline generates:
-
-FastQC quality reports
-Trimmed sequencing reads
-Genome assembly (contigs.fasta and scaffolds.fasta)
-Assembly quality reports
-Genome annotation files
-MLST sequence type
-Antimicrobial resistance gene report
-Example Results
-
-The example analysis in this repository produced:
-
-Species: Salmonella enterica
-Sequence Type (MLST): ST377
-Genome annotation: Generated using Prokka
-AMR gene detection: Performed using ABRicate with the CARD database
-Running the Pipeline
-
-Run each script sequentially:
-
-./scripts/01_fastqc.sh
-./scripts/02_fastp.sh
-./scripts/03_spades.sh
-./scripts/04_quast.sh
-./scripts/05_prokka.sh
-./scripts/06_mlst.sh
-./scripts/07_abricate.sh
-Requirements
-Ubuntu Linux
-Conda / Miniconda
-FastQC
-fastp
-SPAdes
-QUAST
-Prokka
-MLST
-ABRicate
-Documentation
-
-Detailed descriptions of each analysis step are available in:
-
-docs/analysis.md
-Future Improvements
-
-Potential extensions of this workflow include:
-
-Genome completeness assessment with BUSCO
-Plasmid identification
-Virulence factor detection
-Comparative genomics
-Phylogenetic analysis
-Workflow automation using Snakemake or Nextflow
-Author
-
-Charles George Mndala
-
-Bioinformatics | Microbial & Pathogen Genomics | Whole-Genome Sequencing (WGS) | Antimicrobial Resistance (AMR) | Comparative Genomics
-
-GitHub: https://github.com/charles2011-mndala
-
-License
-
-This project is distributed under the MIT License.
-
-Citation
-
-If you use this repository in your research, please cite it appropriately.
+```
