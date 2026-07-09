@@ -143,8 +143,8 @@ The pipeline accepts paired-end Illumina FASTQ files.
 Example:
 
 ```text
-sample_R1.fastq.gz
-sample_R2.fastq.gz
+SRR29047031_1.fastq.gz
+SRR29047031_2.fastq.gz
 ```
 
 ---
